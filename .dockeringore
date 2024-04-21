@@ -1,2 +1,6 @@
-venv
 Dockerfile
+/venv/
+j.html
+__pycache__
+.pytest_cache
+.vscode
