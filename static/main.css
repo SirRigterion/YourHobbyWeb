@@ -1,0 +1,176 @@
+body {
+	background:
+		  calc( .9*100px) calc( .9*100px)/calc(2*100px) calc(2*100px) conic-gradient(at 20% 20%,#0000 75%,#CBE3FE 0),
+		  calc(-.1*100px) calc(-.1*100px)/calc(2*100px) calc(2*100px) conic-gradient(at 20% 20%,#0000 75%,#CBE3FE 0),
+		  calc( .7*100px) calc( .7*100px)/calc(2*100px) calc(2*100px) conic-gradient(at 40% 40%,#0000 75%,lightskyblue 0),
+		  calc(-.3*100px) calc(-.3*100px)/calc(2*100px) calc(2*100px) conic-gradient(at 40% 40%,#0000 75%,lightskyblue 0),
+		  conic-gradient(from 90deg at 20% 20%,#CBE3FE 25%,lightskyblue 0) 
+		   0 0/100px 100px;
+    zoom: 0.5;
+    min-width: 840px;
+}
+
+.logo {
+    height: 128px;
+    width: 128px;
+    background-color: #FDF9F6;
+    border-radius: 25%;
+    border: #0000;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    clear: both;
+}
+
+.flexbox label {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.container {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 16px;
+    background: url(background.png); 
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    margin: auto;
+    text-align: center;
+    min-width: 600px;
+}
+
+hr {
+    border: 1px solid #FDF9F6;
+}
+
+a {
+    color: #275076;
+    text-decoration: none;
+    width: 100px;
+}
+
+.button {
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    height: 50px;
+    color: #275076;
+    background-color: lightskyblue;
+    border: 1px solid #275076;
+    border-radius: 15px;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    color: #FDF9F6;
+    background: #333;
+    transition: all .5s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.hobby {
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 250px;
+    background-color: #87cefa;
+
+    margin: 1em 6px;
+    font-size: 1em;
+    position: relative;
+    padding-bottom: 4px;
+
+}
+
+.hobby h2 {
+    text-align: center;
+}
+
+.hobby h4 {
+    padding-left: 10px;
+}
+
+.hobby p {
+    text-align: center;
+    font-size: 18px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+
+.main {
+    z-index: 99999999999999999;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    background-color: #87cefa;
+    border: 1px solid black;
+    min-width: 250px;
+    max-width: 720px;
+
+    margin: 1em 6px;
+    font-size: 1em;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.u-section-1 {
+    background: url(hey-you-cheeky-carefree-cute-modern-european-girl-yellow-hoodie-wink-make-finger-pistols.jpg) 150% no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; 
+    height: 500px;
+    color: #FDF9F6;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .u-section-1 .u-container-layout-1 {
+    padding: 30px;
+  }
+  
+  .u-section-1 .u-text-1 {
+    font-size: 7.5rem;
+    --animation-custom_in-translate_x: -200px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin: 0% 0 0 50%;
+  }
+  
+  .u-section-1 .u-text-2 {
+    font-size: 7.5rem;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    /* margin: -24px 0 0 auto; */
+    margin: 2% 0 0 55%;
+  }
+  
+  .u-section-1 .u-text-3 {
+    font-size: 1em;
+    margin: 6% 0 0 50%;
+  }
