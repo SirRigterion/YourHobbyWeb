@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<link href="static\main.css" rel="stylesheet">
+<div class="u-section-1">
+    <p class="u-container-layout-1, u-text-1">Your</p>
+    <p class="u-container-layout-1, u-text-2">Hobby</p>
+    <p class="u-container-layout-1, u-text-3">YourHobby – Раскройте Себя! Найдите хобби, что пробудит вдохновение в Вас!</p>
+</div>
+{% block head %}{% endblock %}
+</head>
+<body>
+    <main>
+        {% block main %}{% endblock %}
+<section id="hobby">
+<div class="flexbox">
+    {% block post %}{% endblock %}
+</div>
+</section>
+    </main>
+</body>
+</html>
