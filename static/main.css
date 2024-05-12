@@ -6,13 +6,14 @@ body {
 		  calc(-.3*100px) calc(-.3*100px)/calc(2*100px) calc(2*100px) conic-gradient(at 40% 40%,#0000 75%,lightskyblue 0),
 		  conic-gradient(from 90deg at 20% 20%,#CBE3FE 25%,lightskyblue 0) 
 		   0 0/100px 100px;
-    zoom: 0.5;
     min-width: 840px;
+    zoom: 50%;
 }
 
+
 .logo {
-    height: 128px;
-    width: 128px;
+    height: 256px;
+    width: 256x;
     background-color: #FDF9F6;
     border-radius: 25%;
     border: #0000;
@@ -46,11 +47,16 @@ main {
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
-    margin: auto;
+    margin: 50px auto auto auto;
     text-align: center;
+    font-size: 20px;
     min-width: 600px;
 }
-
+.container h3{
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
 hr {
     border: 1px solid #FDF9F6;
 }
@@ -63,15 +69,16 @@ a {
 
 .button {
     display: block;
-    width: 300px;
+    width: 350px;
     margin-top: 10px;
-    height: 50px;
+    margin-inline-start: 10px;
+    height: 60px;
     color: #275076;
     background-color: lightskyblue;
     border: 1px solid #275076;
     border-radius: 15px;
     text-overflow: ellipsis;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 10px;
     text-align: center;
 }
@@ -84,36 +91,33 @@ a {
     -moz-transition: all .3s linear; 
 }
 
-.button p{
-    margin-top: 5px;
-}
-
 .hobby {
     margin-top: 25px;
     border-radius: 25px;
     border: 1px solid black;
     min-width: 250px;
-    max-width: 500px;
+    max-width: 750px;
     min-height: 250px;
     background-color: #87cefa;
 
     margin: 1em 6px;
-    font-size: 1em;
     position: relative;
     padding-bottom: 5px;
 }
 
 .hobby h2 {
     text-align: center;
+    font-size: 25px;
 }
 
 .hobby h4 {
     padding-left: 10px;
+    font-size: 25px;
 }
 
 .hobby p {
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
@@ -121,17 +125,15 @@ a {
 
 
 .main {
-    z-index: 99999999999999999;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 25px;
+    z-index: 999;
+    background-color: #0000;
+    margin-top: 5px;
+    margin-bottom: 5px;
     min-width: 250px;
     max-width: 720px;
-
-    margin: 1em 6px;
-    font-size: 1em;
-    position: relative;
-    padding-bottom: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .u-section-1 {
@@ -143,7 +145,7 @@ a {
     border: 2px solid black;
     border-radius: 5px;
     max-width: 1280px;
-    margin: auto;
+    margin: 40px auto auto auto;
   }
   
   .u-section-1 .u-container-layout-1 {
@@ -172,6 +174,6 @@ a {
   }
   
   .u-section-1 .u-text-3 {
-    font-size: 1em;
-    margin: 6% 0 0 50%;
+    font-size: 1.5em;
+    margin: 6% 0 0 35%;
   }

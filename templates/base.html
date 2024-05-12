@@ -3,13 +3,29 @@
 <html lang="en">
 <meta charset="UTF-8">
 <head>
+<link id="favicon" rel="icon" type="image/x-icon" href="static/favicon.ico">
 <link href="static\main.css" rel="stylesheet">
 <div class="u-section-1">
     <p class="u-container-layout-1, u-text-1">Your</p>
     <p class="u-container-layout-1, u-text-2">Hobby</p>
     <p class="u-container-layout-1, u-text-3">YourHobby – Раскройте Себя! Найдите хобби, что пробудит вдохновение в Вас!</p>
 </div>
-{% block head %}{% endblock %}
+
+{% block head %}{% endblock%}
+
+<div class="container">
+    <h2>Выберете то что вам интересно</h2>
+    <div class='flexbox'>
+         <a class="button" href="/"><p>Главная</p></a>
+        <a class="button" href="/creation"><p>Создовать вещи</p></a>
+        <a class="button" href="/studying"><p>Изучать новое</p></a>
+        <a class="button" href="/collecting"><p>Коллекционировать</p></a>
+        <a class="button" href="/science"><p>Наука</p></a>
+        <a class="button" href="/sport"><p>Спорт</p></a>
+        <a class="button" href="/reading"><p>Чтение</p></a>
+        <a class="button" href="/computer"><p>Электроника</p></a>
+    </div>
+</div>
 </head>
 <body>
     <main>

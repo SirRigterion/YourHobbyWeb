@@ -1,5 +1,4 @@
-/venv/
-j.html
 __pycache__
+venv
 .pytest_cache
 .vscode
